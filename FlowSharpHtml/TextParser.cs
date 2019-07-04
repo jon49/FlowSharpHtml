@@ -22,7 +22,7 @@ namespace FlowSharpHtml
             select new string(chars);
 
         public static TextParser<string> HtmlContent =>
-            from content in Superpower.Parsers.Token. Span.NonWhiteSpace
+            from content in Span.NonWhiteSpace
             select content.ToString();
     }
 }
